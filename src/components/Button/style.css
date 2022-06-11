@@ -1,0 +1,15 @@
+button {
+    background: #7a4397;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:disabled {
+    background: #888;
+    cursor: not-allowed;
+}
